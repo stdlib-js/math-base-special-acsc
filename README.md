@@ -2,7 +2,7 @@
 
 @license Apache-2.0
 
-Copyright (c) 2018 The Stdlib Authors.
+Copyright (c) 2022 The Stdlib Authors.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -50,7 +50,7 @@ var acsc = require( '@stdlib/math-base-special-acsc' );
 
 #### acsc( x )
 
-Computes the [arccosecant][arccosecant] of a `number` (in radians).
+Computes the [arccosecant][arccosecant] of `x`.
 
 ```javascript
 var v = acsc( 1.0 );
@@ -96,14 +96,6 @@ for ( i = 0; i < x.length; i++ ) {
 <!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
 
 <section class="related">
-
-* * *
-
-## See Also
-
--   <span class="package-name">[`@stdlib/math/base/special/acos`][@stdlib/math/base/special/acos]</span><span class="delimiter">: </span><span class="description">compute the arccosine of a number.</span>
--   <span class="package-name">[`@stdlib/math/base/special/asinh`][@stdlib/math/base/special/asinh]</span><span class="delimiter">: </span><span class="description">compute the hyperbolic arcsine of a number.</span>
--   <span class="package-name">[`@stdlib/math/base/special/atan`][@stdlib/math/base/special/atan]</span><span class="delimiter">: </span><span class="description">compute the arctangent of a number.</span>
 
 </section>
 
@@ -177,17 +169,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/math-base-special-acsc/main/LICENSE
 
-[arcsine]: https://en.wikipedia.org/wiki/Inverse_trigonometric_functions
-
-<!-- <related-links> -->
-
-[@stdlib/math/base/special/acos]: https://github.com/stdlib-js/math-base-special-acos
-
-[@stdlib/math/base/special/asinh]: https://github.com/stdlib-js/math-base-special-asinh
-
-[@stdlib/math/base/special/atan]: https://github.com/stdlib-js/math-base-special-atan
-
-<!-- </related-links> -->
+[arccosecant]: https://en.wikipedia.org/wiki/Inverse_trigonometric_functions
 
 </section>
 
