@@ -1,0 +1,34 @@
+{
+  "name": "@stdlib/math-base-special-acsc",
+  "version": "0.0.0",
+  "description": "Compute the arccosecant of a number.",
+  "license": "Apache-2.0",
+  "main": "./bundle.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/math-base-special-acsc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdmath",
+    "mathematics",
+    "math",
+    "acsc",
+    "arcsine",
+    "arccosecant",
+    "cosecant",
+    "sine",
+    "inverse",
+    "trig",
+    "trigonometry",
+    "angle"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
