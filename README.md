@@ -53,7 +53,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.acsc;
+})();
 })();
 </script>
 ```
@@ -95,6 +97,7 @@ var v = acsc( 0.5 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-acsc@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var x = linspace( 1.1, 5.1, 100 );
 
@@ -103,6 +106,7 @@ for ( i = 0; i < x.length; i++ ) {
     console.log( acsc( x[ i ] ) );
 }
 
+})();
 })();
 </script>
 </body>
