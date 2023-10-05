@@ -30,8 +30,8 @@ var acsc = require( './../../dist' );
 
 // FIXTURES //
 
-var negative = require( './../..xtures/julia/negative.json' );
-var positive = require( './../..xtures/julia/positive.json' );
+var negative = require( './../fixtures/julia/negative.json' );
+var positive = require( './../fixtures/julia/positive.json' );
 
 
 // TESTS //
