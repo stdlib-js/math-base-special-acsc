@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import acsc from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-acsc@deno/mod.js';
+import acsc from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-acsc@v0.1.1-deno/mod.js';
 ```
 
 #### acsc( x )
@@ -76,7 +76,7 @@ var v = acsc( 0.5 );
 
 ```javascript
 import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@deno/mod.js';
-import acsc from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-acsc@deno/mod.js';
+import acsc from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-acsc@v0.1.1-deno/mod.js';
 
 var x = linspace( 1.1, 5.1, 100 );
 
