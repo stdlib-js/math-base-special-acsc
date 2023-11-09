@@ -110,6 +110,15 @@ for ( i = 0; i < x.length; i++ ) {
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/math-base/special/acot`][@stdlib/math/base/special/acot]</span><span class="delimiter">: </span><span class="description">compute the inverse cotangent.</span>
+-   <span class="package-name">[`@stdlib/math-base/special/acsch`][@stdlib/math/base/special/acsch]</span><span class="delimiter">: </span><span class="description">compute the hyperbolic arccosecant of a number.</span>
+-   <span class="package-name">[`@stdlib/math-base/special/asec`][@stdlib/math/base/special/asec]</span><span class="delimiter">: </span><span class="description">compute the inverse (arc) secant of a number.</span>
+-   <span class="package-name">[`@stdlib/math-base/special/asin`][@stdlib/math/base/special/asin]</span><span class="delimiter">: </span><span class="description">compute the arcsine of a double-precision floating-point number.</span>
+
 </section>
 
 <!-- /.related -->
@@ -184,6 +193,18 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/math-base-special-acsc/main/LICENSE
 
 [arccosecant]: https://en.wikipedia.org/wiki/Inverse_trigonometric_functions
+
+<!-- <related-links> -->
+
+[@stdlib/math/base/special/acot]: https://github.com/stdlib-js/math-base-special-acot
+
+[@stdlib/math/base/special/acsch]: https://github.com/stdlib-js/math-base-special-acsch
+
+[@stdlib/math/base/special/asec]: https://github.com/stdlib-js/math-base-special-asec
+
+[@stdlib/math/base/special/asin]: https://github.com/stdlib-js/math-base-special-asin
+
+<!-- </related-links> -->
 
 </section>
 
