@@ -35,38 +35,30 @@ limitations under the License.
 
 > Compute the [arccosecant][arccosecant] of a number.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/math-base-special-acsc
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-acsc = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-acsc@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var acsc = require( 'path/to/vendor/umd/math-base-special-acsc/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-acsc@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.acsc;
-})();
-</script>
+var acsc = require( '@stdlib/math-base-special-acsc' );
 ```
 
 #### acsc( x )
@@ -98,14 +90,9 @@ var v = acsc( 0.5 );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-acsc@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var linspace = require( '@stdlib/array-base-linspace' );
+var acsc = require( '@stdlib/math-base-special-acsc' );
 
 var x = linspace( 1.1, 5.1, 100 );
 
@@ -113,11 +100,6 @@ var i;
 for ( i = 0; i < x.length; i++ ) {
     console.log( acsc( x[ i ] ) );
 }
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -127,6 +109,15 @@ for ( i = 0; i < x.length; i++ ) {
 <!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
 
 <section class="related">
+
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/math-base/special/acot`][@stdlib/math/base/special/acot]</span><span class="delimiter">: </span><span class="description">compute the inverse cotangent.</span>
+-   <span class="package-name">[`@stdlib/math-base/special/acsch`][@stdlib/math/base/special/acsch]</span><span class="delimiter">: </span><span class="description">compute the hyperbolic arccosecant of a number.</span>
+-   <span class="package-name">[`@stdlib/math-base/special/asec`][@stdlib/math/base/special/asec]</span><span class="delimiter">: </span><span class="description">compute the inverse (arc) secant of a number.</span>
+-   <span class="package-name">[`@stdlib/math-base/special/asin`][@stdlib/math/base/special/asin]</span><span class="delimiter">: </span><span class="description">compute the arcsine of a double-precision floating-point number.</span>
 
 </section>
 
@@ -202,6 +193,18 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/math-base-special-acsc/main/LICENSE
 
 [arccosecant]: https://en.wikipedia.org/wiki/Inverse_trigonometric_functions
+
+<!-- <related-links> -->
+
+[@stdlib/math/base/special/acot]: https://github.com/stdlib-js/math-base-special-acot
+
+[@stdlib/math/base/special/acsch]: https://github.com/stdlib-js/math-base-special-acsch
+
+[@stdlib/math/base/special/asec]: https://github.com/stdlib-js/math-base-special-asec
+
+[@stdlib/math/base/special/asin]: https://github.com/stdlib-js/math-base-special-asin
+
+<!-- </related-links> -->
 
 </section>
 
