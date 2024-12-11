@@ -205,6 +205,7 @@ int main( void ) {
 -   <span class="package-name">[`@stdlib/math-base/special/acsch`][@stdlib/math/base/special/acsch]</span><span class="delimiter">: </span><span class="description">compute the hyperbolic arccosecant of a number.</span>
 -   <span class="package-name">[`@stdlib/math-base/special/asec`][@stdlib/math/base/special/asec]</span><span class="delimiter">: </span><span class="description">compute the inverse (arc) secant of a number.</span>
 -   <span class="package-name">[`@stdlib/math-base/special/asin`][@stdlib/math/base/special/asin]</span><span class="delimiter">: </span><span class="description">compute the arcsine of a double-precision floating-point number.</span>
+-   <span class="package-name">[`@stdlib/math-base/special/csc`][@stdlib/math/base/special/csc]</span><span class="delimiter">: </span><span class="description">compute the cosecant of a number.</span>
 
 </section>
 
@@ -293,6 +294,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [@stdlib/math/base/special/asec]: https://github.com/stdlib-js/math-base-special-asec
 
 [@stdlib/math/base/special/asin]: https://github.com/stdlib-js/math-base-special-asin
+
+[@stdlib/math/base/special/csc]: https://github.com/stdlib-js/math-base-special-csc
 
 <!-- </related-links> -->
 
