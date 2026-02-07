@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import acsc from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-acsc@deno/mod.js';
+import acsc from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-acsc@v0.3.1-deno/mod.js';
 ```
 
 #### acsc( x )
@@ -77,7 +77,7 @@ var v = acsc( 0.5 );
 ```javascript
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@deno/mod.js';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@deno/mod.js';
-import acsc from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-acsc@deno/mod.js';
+import acsc from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-acsc@v0.3.1-deno/mod.js';
 
 var x = uniform( 100, 1.1, 5.1, {
     'dtype': 'float64'
