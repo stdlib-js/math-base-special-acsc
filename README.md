@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import acsc from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-acsc@esm/index.mjs';
+import acsc from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-acsc@v0.3.1-esm/index.mjs';
 ```
 
 #### acsc( x )
@@ -82,7 +82,7 @@ var v = acsc( 0.5 );
 
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@esm/index.mjs';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@esm/index.mjs';
-import acsc from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-acsc@esm/index.mjs';
+import acsc from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-acsc@v0.3.1-esm/index.mjs';
 
 var x = uniform( 100, 1.1, 5.1, {
     'dtype': 'float64'
