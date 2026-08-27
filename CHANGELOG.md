@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`ac0d55f`](https://github.com/stdlib-js/stdlib/commit/ac0d55f57c0eba355827ab600b2b6a6081f04d61) - **docs:** add equations [(#14684)](https://github.com/stdlib-js/stdlib/pull/14684) _(by Karan Anand)_
 -   [`ba00d5e`](https://github.com/stdlib-js/stdlib/commit/ba00d5ef59a526a0ebbdbbce4b7ef7255e53a051) - **test:** migrate `math/base/special/acsc` to ULP-based testing [(#12753)](https://github.com/stdlib-js/stdlib/pull/12753) _(by Philipp Burckhardt)_
 -   [`9229dd7`](https://github.com/stdlib-js/stdlib/commit/9229dd78fa82c5f863dbc51a9588314d53a97c44) - **bench:** refactor to use string interpolation in `math/base/special` [(#11386)](https://github.com/stdlib-js/stdlib/pull/11386) _(by Karan Anand)_
 
